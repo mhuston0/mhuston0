@@ -1,15 +1,19 @@
-string1 = "Becomes"
-string1 = string1.lower()
-print(string1.startswith("be"))
+#4.4 Review Exercises
 
-string2 = "becomes"
-print(string2.startswith("be"))
-#string2 unchanged
+#1
 
-string3 = "BEAR"
-string3 = string3.lower()
-print(string3.startswith("be"))
+prompt = "Type your name "
+user_input = input(prompt)
+print("Nice to meet you " + user_input)
 
-string4 = "    bEautiful"
-string4 = string4.lower().lstrip()
-print(string4.startswith("be"))
+#2
+
+prompt = "Type your name "
+user_input = input(prompt).lower()
+print("Nice to meet you " + user_input)
+
+#3
+
+prompt = "Type your name "
+user_input = input(prompt)
+print(len(user_input))
