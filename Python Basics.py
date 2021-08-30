@@ -1,9 +1,8 @@
-string1 = "     Filet Mignon"
-print(string1.lstrip())
-string2 = "Brisket     "
-print(string2.rstrip())
-string3 = "     Cheeseburger     "
-print(string3.strip())
-
-
-
+string1 = "Becomes"
+print(string1.startswith("be"))
+string2 = "becomes"
+print(string2.startswith("be"))
+string3 = "BEAR"
+print(string3.startswith("be"))
+string4 = "    bEautiful"
+print(string4.startswith("be"))
