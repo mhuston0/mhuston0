@@ -1,9 +1,9 @@
-A = "Animals"
-B = "Badger"
-H = "Honey Bee"
-HB = "Honey Badger"
+string1 = "     Filet Mignon"
+print(string1.lstrip())
+string2 = "Brisket     "
+print(string2.rstrip())
+string3 = "     Cheeseburger     "
+print(string3.strip())
 
-print(A.upper())
-print(B.upper())
-print(H.upper())
-print(HB.upper())
+
+
